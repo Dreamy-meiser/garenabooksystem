@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book Center - Genres</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <section class="row">
+        <div class="col-mod-12">
+            <!-- we want to apply the following classes  -->
+             <!-- navbar this class defines its a navbar  -->
+        <!-- navbar-expand-md this class expands on medium/large devices  -->
+        <!-- bg-light this class gives the background color of the navbar -->
+        <!-- navbar-light this class specifies the text color of the navbar  -->
+        <nav class=" navbar navbar-expand-md bg-light navbar-light">
+            <!-- The nav specifies that its a navigation bar  -->
+        <!-- we have three parts  -->
+        <!-- we have a link with the name Tumaini collection   -->
+        <!-- we have a button which on small screen appears -->
+        <!-- We have a division with a group of links  -->
+         <!-- we want to style Tumaini collections and we are going to give it a class of navbar-brand  -->
+        
+        <a href="index.html" class="navbar-brand fw-bolder"> GARENA BOOK CENTER</a>
+        <!-- We want to make the button more interactive  -->
+         <!-- navbaar-toggler this class will make the button appearance hhave a curved edge  -->
+          <!-- data-bs-toggle This will toggle the visibility of the content  -->
+           <!-- data-bs-target this will specify which element to toggle -->
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
+            <!-- we want to style the span  -->
+        <!-- we will give it a class that creates three horizontal lines  -->
+        
+            <span class="navbar-toggler-icon">
+        
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarcollapse">
+        <!-- we want to style the below division  -->
+        <!-- navbar-nav this class applies special styles to a group of links  -->
+            <div class="navbar-nav">
+                <!-- we want to style the links  -->
+                 <!-- we will apply the following clases  -->
+                  <!-- nav-link this styles the link  -->
+        <!-- active this style shows the current active page  -->
+                <a href="index.html" class="nav-link ">Home</a>
+                <a href="aboutus.html"" class="nav-link">About Us</a>
+                <a href="genres.html" class="nav-link">Genres</a>
+                <a href="productcatalog.html" class="nav-link">Product Catalog</a>
+
+            </div>
+        
+        </div>
+        </nav>
+        </div>
+        </section>
+        <!-- End of navigation bar  -->
+<!-- The carousel  -->
+<section class="row">
+    <div class="col-mod-12">
+    <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+    <!-- we are going to have three parts  -->
+    <!-- division that will contain images  -->
+    <!-- arrow pointing to the left  -->
+    <!-- arrow pointing to the right  -->
+     <div class="carousel-inner">
+        <!-- we are going to have division with images  -->
+     
+    <div class="carousel-item active">
+        <!-- we are going to have division with images  -->
+         <img src="images/slide5.jpg" alt="slide4" class="d-block w-100">
+    </div>
+    <!-- end of division 1  -->
+    <div class="carousel-item">
+    <img src="images/slide3.jpg" alt="slide 3" class="d-block w-100">
+    </div>
+    <!-- end of div 2  -->
+    <div class="carousel-item">
+        <img src="images/slide2.jpg" alt="slide2" class="d-block w-100">
+    </div>
+    <!-- end of div 3  -->
+     <div>
+        <img src="images/slide1.jpg" alt="slide1" class="d-block w-100">
+     </div>
+    </div>
+    <!-- end of division in images  -->
+     <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev"><span class="carousel-control-prev-icon bg-danger"></span></a>
+     <!-- end of left arrow  -->
+     <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next"><span class="carousel-control-next-icon bg-danger"></span></a>
+     <!-- end of right arrow  -->
+    </div>
+    </div>
+    </section>
+    <!-- end of carousel  -->
+    
+   <section>
+    
+        <div class="container">
+            <a class="navbar-brand text-center text-info" href="#"><h1>Book Genres</h1></a>
+        </div>
+    
+    
+    <div class="container " style="background-image: url(images/background4.jpg);">
+        <h1 class="text-center  text-primary">Explore Book Genres</h1>
+        <div class="row">
+            <div class="col-md-4 ">
+                <div class="card bg-white border-primary">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Fiction</h5>
+                        <p class="card-text text-dark">Dive into imaginative worlds with compelling stories. Fiction includes novels and short stories that explore various themes, characters, and settings. Examples include "To Kill a Mockingbird" by Harper Lee and "1984" by George Orwell.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card bg-white border-success">
+                    <div class="card-body">
+                        <h5 class="card-title text-success">Mystery</h5>
+                        <p class="card-text text-dark">Unravel thrilling mysteries and suspenseful plots. Mystery books often feature detectives, investigations, and unexpected twists. Notable examples include "Sherlock Holmes" by Arthur Conan Doyle and "Gone Girl" by Gillian Flynn.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card bg-white border-info">
+                    <div class="card-body">
+                        <h5 class="card-title text-info">Science Fiction</h5>
+                        <p class="card-text text-dark">Explore futuristic and high-tech adventures. Sci-fi books often delve into space exploration, advanced technology, and alternative realities. Examples include "Dune" by Frank Herbert and "The Hitchhiker's Guide to the Galaxy" by Douglas Adams.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card bg-white border-warning">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Fantasy</h5>
+                        <p class="card-text text-dark">Experience magical realms and mythical creatures. Fantasy books feature extraordinary worlds, heroic quests, and magical elements. Examples include "Harry Potter" by J.K. Rowling and "The Lord of the Rings" by J.R.R. Tolkien.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card bg-white border-danger">
+                    <div class="card-body">
+                        <h5 class="card-title text-danger">Non-Fiction</h5>
+                        <p class="card-text text-dark">Gain knowledge with factual and informative books. Non-fiction covers biographies, history, self-help, and educational material. Examples include "Sapiens: A Brief History of Humankind" by Yuval Noah Harari and "The Diary of a Young Girl" by Anne Frank.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card bg-white border-secondary">
+                    <div class="card-body">
+                        <h5 class="card-title text-secondary">Romance</h5>
+                        <p class="card-text text-dark">Immerse yourself in heartwarming love stories. Romance novels explore emotional connections, relationships, and deep bonds. Popular examples include "Pride and Prejudice" by Jane Austen and "The Notebook" by Nicholas Sparks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-1 text-white bg-danger">
+    <marquee behavior="" direction="">Developed by Dreamy._Meiser._(monteliblessen)  &copy; 2025 Garena Book Center | All Rights Reserved</marquee>
+    </footer>
+
+
+
+   </section>
+</body>
+</html>
